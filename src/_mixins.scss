@@ -1,0 +1,19 @@
+@use './variables';
+
+@mixin screen-sm {
+    @media (min-width: variables.$screen-sm-min) {
+        @content;
+    }
+}
+
+@mixin screen-md {
+    @media (min-width: variables.$screen-md-min) {
+        @content;
+    }
+}
+
+@mixin screen-lg {
+    @media (min-width: variables.$screen-lg-min) {
+        @content;
+    }
+}
