@@ -3,10 +3,10 @@ import { useState } from 'react';
 import './App.scss';
 
 const cards = [
-  { title: 'Move the borders of reality!', promoText: 'Go on a space adventure', backgroundImage: '/assets/card-bg-1.webp' },
-  { title: 'Space is not just stars and planets', promoText: 'it is a majestic journey to', backgroundImage: '/assets/card-bg-2.webp'  },
-  { title: 'For those who dream of stars', promoText: 'Our offer: make your dream come true', backgroundImage: '/assets/card-bg-3.webp'  },
-  { title: 'Fulfill your fantastic dreams', promoText: 'Space has never been so close', backgroundImage: '/assets/card-bg-4.webp'  }
+  { title: 'Move the borders of reality!', promoText: 'Go on a space adventure', backgroundImage: '../public/assets/card-bg-1.webp' },
+  { title: 'Space is not just stars and planets', promoText: 'it is a majestic journey to', backgroundImage: '../public/assets/card-bg-2.webp'  },
+  { title: 'For those who dream of stars', promoText: 'Our offer: make your dream come true', backgroundImage: '../public/assets/card-bg-3.webp'  },
+  { title: 'Fulfill your fantastic dreams', promoText: 'Space has never been so close', backgroundImage: '../public/assets/card-bg-4.webp'  }
 ]
 
 const LONG_TEXT ='Traveling into space is one of the most exciting and unforgettable adventures that can change your life forever. And if you have ever dreamed of exploring stars, planets and galaxies, then our company is ready to help you realize this dream. We offer a unique experience that will allow you to go on a space journey and see all the secrets of the universe. We guarantee that every moment in space will be filled with incredible impressions, excitement and new discoveries. Our team of professionals takes care of your safety and comfort so that you can fully enjoy your adventure in space. We offer various options for space excursions.'
@@ -82,7 +82,7 @@ function App() {
         </article>
       </main>
       <footer className='footer'>
-        <img alt='rocket' src='/assets/rocket-sm.svg' />
+        <img alt='rocket' src='../public/assets/rocket-sm.svg' />
         <p className='footer__text'>Exciting space adventure!</p>
       </footer>
     </>
