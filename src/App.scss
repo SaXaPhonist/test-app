@@ -169,7 +169,7 @@
 .promo {
   position: relative;
   min-height: 452px;
-  background-image:url("../public/assets/planet.png"), url("../public/assets/header-bg.webp"), ;
+  background-image:url("../public/planet.png"), url("../public/header-bg.webp"), ;
   background-repeat: no-repeat, no-repeat;
   background-position: 75% -50%, center;
   background-size: 260px, cover;
@@ -317,7 +317,7 @@
     font-weight: 700;
     color: variables.$primary;
     opacity: 60%;
-    max-height: 62px;
+    max-height: 66px;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
   }
@@ -473,7 +473,6 @@
     font-size: 22px;
   }
 }
-
 
 
 .footer {

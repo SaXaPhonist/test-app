@@ -1,12 +1,18 @@
 import { useState } from 'react';
 
+import FirstCardBg from './assets/card-bg-1.webp'
+import SecondCardBg from './assets/card-bg-2.webp'
+import ThirdCardBg from './assets/card-bg-3.webp'
+import FourthCardBg from './assets/card-bg-4.webp'
+import RocketIcon from './assets/rocket-sm.svg'
+
 import './App.scss';
 
 const cards = [
-  { title: 'Move the borders of reality!', promoText: 'Go on a space adventure', backgroundImage: '../public/assets/card-bg-1.webp' },
-  { title: 'Space is not just stars and planets', promoText: 'it is a majestic journey to', backgroundImage: '../public/assets/card-bg-2.webp'  },
-  { title: 'For those who dream of stars', promoText: 'Our offer: make your dream come true', backgroundImage: '../public/assets/card-bg-3.webp'  },
-  { title: 'Fulfill your fantastic dreams', promoText: 'Space has never been so close', backgroundImage: '../public/assets/card-bg-4.webp'  }
+  { title: 'Move the borders of reality!', promoText: 'Go on a space adventure', backgroundImage: FirstCardBg },
+  { title: 'Space is not just stars and planets', promoText: 'it is a majestic journey to', backgroundImage: SecondCardBg  },
+  { title: 'For those who dream of stars', promoText: 'Our offer: make your dream come true', backgroundImage: ThirdCardBg  },
+  { title: 'Fulfill your fantastic dreams', promoText: 'Space has never been so close', backgroundImage: FourthCardBg  }
 ]
 
 const LONG_TEXT ='Traveling into space is one of the most exciting and unforgettable adventures that can change your life forever. And if you have ever dreamed of exploring stars, planets and galaxies, then our company is ready to help you realize this dream. We offer a unique experience that will allow you to go on a space journey and see all the secrets of the universe. We guarantee that every moment in space will be filled with incredible impressions, excitement and new discoveries. Our team of professionals takes care of your safety and comfort so that you can fully enjoy your adventure in space. We offer various options for space excursions.'
@@ -26,13 +32,13 @@ function App() {
           <img className='logo__text' src='logo-text.svg' alt='go' />
         </div>
         <nav className={`header__nav ${menuIsOpen && 'isExpanded'}`}>
-          <a className='navItem' href='/home'>
+          <a className='navItem' href='/'>
             <p className='textWithGradient'>Home</p>
           </a>
-          <a className='navItem'  href='/products'>
+          <a className='navItem'  href='/'>
             <p className='textWithGradient'>Products</p>
           </a>
-          <a className='navItem'  href='/chart'>
+          <a className='navItem'  href='/'>
             <svg className='svgWithGradient' width="24" height="20" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -82,7 +88,7 @@ function App() {
         </article>
       </main>
       <footer className='footer'>
-        <img alt='rocket' src='../public/assets/rocket-sm.svg' />
+        <img alt='rocket' src={RocketIcon} />
         <p className='footer__text'>Exciting space adventure!</p>
       </footer>
     </>
