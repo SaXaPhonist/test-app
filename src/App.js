@@ -56,8 +56,8 @@ function App() {
         </button>
       </header>
       <section className='promo'>
-        <h2 className='promo__title'>Discover the vast 
-        expanses of <span className='emphasize-text_main'>space</span></h2>
+        <h1 className='promo__title'>Discover the vast 
+        expanses of <span className='emphasize-text_main'>space</span></h1>
         <p className='promo__text'>
         Where the possibilities are <span className='emphasize-text_second'>endless!</span>
         </p>
