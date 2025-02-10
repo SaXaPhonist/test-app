@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.5b5d0975.css",
-    "main.js": "./static/js/main.b3b5da57.js",
+    "main.css": "./static/css/main.c9160790.css",
+    "main.js": "./static/js/main.2bbb4fe2.js",
     "static/media/header-bg.webp": "./static/media/header-bg.116fbd5f54d46ec8cdf7.webp",
     "static/media/rocket-sm.svg": "./static/media/rocket-sm.a4389852c90b9d43571cac86eea0e8ab.svg",
     "static/media/Lato-Bold.ttf": "./static/media/Lato-Bold.0baf4e4829ca0a3e1e5c.ttf",
     "static/media/Lato-ExtraBold.ttf": "./static/media/Lato-ExtraBold.0d13f4b5f45c14cf4d3c.ttf",
     "static/media/card-bg-4.webp": "./static/media/card-bg-4.1b04900a03d8c37e170b.webp",
     "static/media/card-bg-2.webp": "./static/media/card-bg-2.27a863784227d94950e3.webp",
-    "static/media/card-bg-1.webp": "./static/media/card-bg-1.52a39ef68a2b5fe2bfd1.webp",
     "static/media/planet.png": "./static/media/planet.9e57b560290c63203892.png",
+    "static/media/card-bg-1.webp": "./static/media/card-bg-1.3a261661d0ef6ca0a15e.webp",
     "static/media/card-bg-3.webp": "./static/media/card-bg-3.de04bf1c64397f96f0bc.webp",
     "index.html": "./index.html",
-    "main.5b5d0975.css.map": "./static/css/main.5b5d0975.css.map",
-    "main.b3b5da57.js.map": "./static/js/main.b3b5da57.js.map"
+    "main.c9160790.css.map": "./static/css/main.c9160790.css.map",
+    "main.2bbb4fe2.js.map": "./static/js/main.2bbb4fe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b5d0975.css",
-    "static/js/main.b3b5da57.js"
+    "static/css/main.c9160790.css",
+    "static/js/main.2bbb4fe2.js"
   ]
 }
